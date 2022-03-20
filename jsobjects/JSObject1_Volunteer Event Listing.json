@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Volunteer Event Listing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tlogout: () => {\n\t\t\t  storeValue(\"adminFlag\", undefined, true);\n\t\t\t\tstoreValue(\"username\", undefined,true);\n\t\t\t\tnavigateTo('Login');\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Volunteer Event Listing_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6210f8f06b4b1e154a3f1638_6235cecf4d9aea1b062acd96"
+}

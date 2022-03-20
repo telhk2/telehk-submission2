@@ -57,11 +57,11 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Login_signupCheckQuery": {
+    "Recommender_logout": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Recommender_logout": {
+    "Login_signupCheckQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     }

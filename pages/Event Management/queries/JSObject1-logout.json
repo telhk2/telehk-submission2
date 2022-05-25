@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Admin Events",
-    "collectionId": "Admin Events_JSObject1",
+    "pageId": "Event Management",
+    "collectionId": "Event Management_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -40,7 +40,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Admin Events_logout",
+  "id": "Event Management_JSObject1.logout",
   "deleted": false,
-  "gitSyncId": "6210f8f06b4b1e154a3f1638_6235ce824d9aea1b062acd86"
+  "gitSyncId": "6210f8f06b4b1e154a3f1638_6235ce8c4d9aea1b062acd8b"
 }

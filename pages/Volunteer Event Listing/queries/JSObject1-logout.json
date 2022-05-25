@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Volunteers Hours Report",
-    "collectionId": "Volunteers Hours Report_JSObject1",
+    "pageId": "Volunteer Event Listing",
+    "collectionId": "Volunteer Event Listing_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -40,7 +40,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Volunteers Hours Report_logout",
+  "id": "Volunteer Event Listing_JSObject1.logout",
   "deleted": false,
-  "gitSyncId": "6210f8f06b4b1e154a3f1638_6235ce674d9aea1b062acd84"
+  "gitSyncId": "6210f8f06b4b1e154a3f1638_6235cecf4d9aea1b062acd94"
 }

@@ -19,13 +19,14 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 53,
+          "version": 58,
           "minHeight": 990,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
             {
+              "boxShadow": "none",
               "widgetName": "signupModal",
               "isCanvas": true,
               "displayName": "Modal",
@@ -41,33 +42,27 @@
               "leftColumn": 0,
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas3",
-                  "rightColumn": 0,
-                  "detachFromLayout": true,
                   "displayName": "Canvas",
-                  "widgetId": "pdmdmukb3q",
                   "topRow": 0,
                   "bottomRow": 640,
                   "parentRowSpace": 1,
-                  "isVisible": true,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
-                  "version": 1,
                   "hideCard": true,
-                  "parentId": "ggljh8u405",
                   "shouldScrollContents": false,
                   "minHeight": 648,
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
                     {
+                      "boxShadow": "none",
                       "widgetName": "emailSignup",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
-                      "topRow": 25,
-                      "bottomRow": 29,
+                      "topRow": 7,
+                      "bottomRow": 11,
                       "parentRowSpace": 10,
                       "autoFocus": false,
                       "type": "INPUT_WIDGET_V2",
@@ -77,24 +72,32 @@
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
                       "leftColumn": 0,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "",
-                      "inputType": "TEXT",
+                      "inputType": "EMAIL",
                       "isDisabled": false,
                       "key": "manji66kn9",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 28,
                       "widgetId": "314p4bgy2n",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "email:",
                       "version": 2,
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": ""
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "skillSignup",
                       "dynamicPropertyPathList": [
                         {
@@ -115,23 +118,31 @@
                       "parentColumnSpace": 6.9375,
                       "dynamicTriggerPathList": [],
                       "leftColumn": 0,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "options": "[\n  {\n    \"label\": \"Accounting & Finance\",\n    \"value\": \"Accounting & Finance\"\n  },\n  {\n    \"label\": \"Arts & Music\",\n    \"value\": \"Arts & Music\"\n  },\n  {\n    \"label\": \"Business Development\",\n    \"value\": \"Business Development\"\n  },\n  {\n    \"label\": \"Coaching & Training\",\n    \"value\": \"Coaching & Training\"\n  },\n  {\n    \"label\": \"Counselling & Mentoring\",\n    \"value\": \"Counselling & Mentoring\"\n  },\n  {\n    \"label\": \"Fundraising\",\n    \"value\": \"Fundraising\"\n  },\n  {\n    \"label\": \"Human Resource\",\n    \"value\": \"Human Resource\"\n  },\n  {\n    \"label\": \"Information Technology\",\n    \"value\": \"Information Technology\"\n  },\n  {\n    \"label\": \"Leadership Development\",\n    \"value\": \"Leadership Development\"\n  },\n  {\n    \"label\": \"Legal\",\n    \"value\": \"Legal\"\n  },\n  {\n    \"label\": \"Marketing & Communications\",\n    \"value\": \"Marketing & Communications\"\n  },\n  {\n    \"label\": \"Medical & Health\",\n    \"value\": \"Medical & Health\"\n  },\n  {\n    \"label\": \"Volunteer Management\",\n    \"value\": \"Volunteer Management\"\n  }\n]",
                       "placeholderText": "Select option(s)",
                       "isDisabled": false,
                       "key": "ehxatrhjfz",
+                      "labelTextSize": "0.875rem",
                       "isRequired": "false",
                       "rightColumn": 34,
                       "widgetId": "lb7ovv3u64",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "version": 1,
                       "expandAll": false,
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "allowClear": false
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "interestSignup",
                       "dynamicPropertyPathList": [
                         {
@@ -152,23 +163,31 @@
                       "parentColumnSpace": 6.9375,
                       "dynamicTriggerPathList": [],
                       "leftColumn": 0,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "options": "[{\n  \"label\": \"Admin\",\n  \"value\": \"Admin\"\n},\n{\n  \"label\": \"Bankbox Master\",\n  \"value\": \"Bankbox Master\"\n},\n{\n  \"label\": \"Delivery Assistant\",\n  \"value\": \"Delivery Assistant\"\n},\n{\n  \"label\": \"Events/Marketing\",\n  \"value\": \"Events/Marketing\"\n},\n{\n  \"label\": \"Food Bank Ambassador\",\n  \"value\": \"Food Bank Ambassador\"\n},\n{\n  \"label\": \"Pantry Topper Upper\",\n  \"value\": \"Pantry Topper Upper\"\n}]",
                       "placeholderText": "Select option(s)",
                       "isDisabled": false,
                       "key": "ehxatrhjfz",
+                      "labelTextSize": "0.875rem",
                       "isRequired": "false",
                       "rightColumn": 34,
                       "widgetId": "6bo4bsprpw",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "version": 1,
                       "expandAll": false,
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "allowClear": false
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "lastNameSignup",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -183,49 +202,64 @@
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
                       "leftColumn": 0,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "manji66kn9",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 20,
                       "widgetId": "kxpakp2oac",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "last name:",
                       "version": 2,
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": ""
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Icon1",
-                      "rightColumn": 64,
                       "onClick": "{{closeModal('signupModal')}}",
-                      "iconName": "cross",
                       "buttonColor": "#2E3D49",
                       "displayName": "Icon",
                       "iconSVG": "/static/media/icon.31d6cfe0.svg",
-                      "widgetId": "6ohfkg40e4",
                       "topRow": 1,
                       "bottomRow": 5,
-                      "isVisible": true,
                       "type": "ICON_BUTTON_WIDGET",
-                      "version": 1,
                       "hideCard": true,
+                      "leftColumn": 56,
+                      "iconSize": 24,
+                      "key": "br78aau8y3",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "iconName": "cross",
+                      "widgetId": "6ohfkg40e4",
+                      "isVisible": true,
+                      "version": 1,
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "leftColumn": 56,
-                      "borderRadius": "SHARP",
-                      "buttonVariant": "TERTIARY",
-                      "iconSize": 24,
-                      "key": "br78aau8y3"
+                      "borderRadius": "0px",
+                      "buttonVariant": "TERTIARY"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text3",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
                       "topRow": 1,
@@ -234,26 +268,29 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
-                      "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
                       "text": "Sign up now.",
                       "key": "yj5npox4lt",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 41,
                       "textAlign": "LEFT",
                       "widgetId": "tl0icwov1k",
                       "isVisible": true,
                       "fontStyle": "BOLD",
                       "textColor": "#231F20",
-                      "shouldScroll": false,
                       "version": 1,
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "HEADING1"
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Button1",
                       "onClick": "{{closeModal('signupModal')}}",
                       "buttonColor": "#03B365",
@@ -268,6 +305,7 @@
                       "text": "Close",
                       "isDisabled": false,
                       "key": "55tq2jlwqk",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 48,
                       "isDefaultClickDisabled": true,
                       "widgetId": "18xu9okw1r",
@@ -278,10 +316,12 @@
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Button2",
                       "onClick": "{{JSObject1.signupSubmission()}}",
                       "buttonColor": "#03B365",
@@ -302,6 +342,7 @@
                       "text": "Confirm",
                       "isDisabled": false,
                       "key": "55tq2jlwqk",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 61,
                       "isDefaultClickDisabled": true,
                       "widgetId": "a4xp1w0ajc",
@@ -312,42 +353,12 @@
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
                     {
-                      "widgetName": "usernameSignup",
-                      "displayName": "Input",
-                      "iconSVG": "/static/media/icon.9f505595.svg",
-                      "topRow": 6,
-                      "bottomRow": 10,
-                      "parentRowSpace": 10,
-                      "autoFocus": false,
-                      "type": "INPUT_WIDGET_V2",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 6.9375,
-                      "dynamicTriggerPathList": [],
-                      "resetOnSubmit": true,
-                      "leftColumn": 0,
-                      "dynamicBindingPathList": [],
-                      "labelStyle": "",
-                      "inputType": "TEXT",
-                      "isDisabled": false,
-                      "key": "manji66kn9",
-                      "isRequired": false,
-                      "rightColumn": 27,
-                      "widgetId": "g411cy8ysu",
-                      "isVisible": true,
-                      "label": "username:\n",
-                      "version": 2,
-                      "parentId": "pdmdmukb3q",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "iconAlign": "left",
-                      "defaultText": ""
-                    },
-                    {
+                      "boxShadow": "none",
                       "widgetName": "passwordSignup",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -362,24 +373,32 @@
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
                       "leftColumn": 0,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "",
                       "inputType": "PASSWORD",
                       "isDisabled": false,
                       "key": "manji66kn9",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 27,
                       "widgetId": "mtxzm8gx3q",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "password:",
                       "version": 2,
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": ""
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "ageSingup",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -394,14 +413,20 @@
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
                       "leftColumn": 0,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "",
                       "inputType": "NUMBER",
                       "isDisabled": false,
                       "key": "manji66kn9",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 20,
                       "widgetId": "8eotyndw3i",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "age:",
                       "version": 2,
@@ -409,10 +434,12 @@
                       "minNum": "5",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": ""
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "firstnameSignup",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -427,24 +454,32 @@
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
                       "leftColumn": 0,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "manji66kn9",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 20,
                       "widgetId": "8oauau64hv",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "first name:",
                       "version": 2,
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": ""
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Area",
                       "dynamicPropertyPathList": [
                         {
@@ -465,30 +500,40 @@
                       "parentColumnSpace": 6.9375,
                       "dynamicTriggerPathList": [],
                       "leftColumn": 0,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "options": "[{ \"label\":\"East\",\"value\":\"East\"},\n{ \"label\":\"South\",\"value\":\"South\"},\n{ \"label\":\"West\",\"value\":\"West\"},\n{ \"label\":\"North\",\"value\":\"North\"}]",
                       "placeholderText": "Select option(s)",
                       "isDisabled": false,
                       "key": "ehxatrhjfz",
+                      "labelTextSize": "0.875rem",
                       "isRequired": "false",
                       "rightColumn": 27,
                       "widgetId": "1e8vhsorpl",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "version": 1,
                       "expandAll": false,
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "allowClear": false
                     },
                     {
-                      "boxShadow": "NONE",
+                      "boxShadow": "none",
                       "widgetName": "adminCreationSecretField",
                       "borderColor": "transparent",
                       "isCanvas": true,
                       "dynamicPropertyPathList": [
                         {
                           "key": "isVisible"
+                        },
+                        {
+                          "key": "borderRadius"
                         }
                       ],
                       "displayName": "Container",
@@ -509,28 +554,21 @@
                       ],
                       "children": [
                         {
+                          "boxShadow": "none",
                           "widgetName": "Canvas4",
-                          "rightColumn": 230.25,
-                          "detachFromLayout": true,
                           "displayName": "Canvas",
-                          "widgetId": "uzo4n6qz18",
-                          "containerStyle": "none",
                           "topRow": 0,
                           "bottomRow": 390,
                           "parentRowSpace": 1,
-                          "isVisible": true,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
-                          "version": 1,
                           "hideCard": true,
-                          "parentId": "xlla8esffy",
                           "minHeight": 400,
-                          "renderMode": "CANVAS",
-                          "isLoading": false,
                           "parentColumnSpace": 1,
                           "leftColumn": 0,
                           "children": [
                             {
+                              "boxShadow": "none",
                               "widgetName": "adminSignup",
                               "dynamicPropertyPathList": [
                                 {
@@ -552,23 +590,38 @@
                               "dynamicBindingPathList": [],
                               "isDisabled": false,
                               "key": "pcz7oet94y",
+                              "labelTextSize": "0.875rem",
                               "isRequired": false,
                               "rightColumn": 46,
                               "widgetId": "no9vu8lk8o",
+                              "accentColor": "#03B365",
                               "isVisible": true,
                               "label": "Admin",
                               "version": 1,
                               "parentId": "uzo4n6qz18",
                               "renderMode": "CANVAS",
                               "isLoading": false,
+                              "borderRadius": "0px",
                               "defaultCheckedState": "false"
                             }
                           ],
-                          "key": "f9cj79x55t"
+                          "key": "f9cj79x55t",
+                          "labelTextSize": "0.875rem",
+                          "rightColumn": 230.25,
+                          "detachFromLayout": true,
+                          "widgetId": "uzo4n6qz18",
+                          "containerStyle": "none",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "xlla8esffy",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "borderRadius": "0px"
                         }
                       ],
                       "borderWidth": "0",
                       "key": "1g6v5fvwbl",
+                      "labelTextSize": "0.875rem",
                       "backgroundColor": "#FFFFFF",
                       "rightColumn": 58,
                       "widgetId": "xlla8esffy",
@@ -578,9 +631,10 @@
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "borderRadius": "0"
+                      "borderRadius": "0px"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "adminSecretField",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595.svg",
@@ -595,26 +649,34 @@
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
                       "leftColumn": 34,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "placeholderText": "admin secret field",
                       "isDisabled": false,
                       "key": "57sdhwrg8n",
                       "validation": "",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 54,
                       "widgetId": "yc4q1q06yt",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "label": "",
                       "version": 2,
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": ""
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "genderSignup",
                       "isFilterable": true,
                       "displayName": "Select",
@@ -631,27 +693,45 @@
                       "parentColumnSpace": 9.59375,
                       "dynamicTriggerPathList": [],
                       "leftColumn": 27,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "options": "[\n  {\n    \"label\": \"male\",\n    \"value\": \"male\"\n  },\n  {\n    \"label\": \"female\",\n    \"value\": \"female\"\n  }\n]",
                       "placeholderText": "Select option",
                       "isDisabled": false,
                       "key": "p5zrpad2he",
+                      "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "rightColumn": 47,
                       "widgetId": "ay0ebtd139",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "version": 1,
                       "parentId": "pdmdmukb3q",
                       "renderMode": "CANVAS",
-                      "isLoading": false
+                      "isLoading": false,
+                      "borderRadius": "0px"
                     }
                   ],
                   "isDisabled": false,
-                  "key": "n1mim5pi40"
+                  "key": "n1mim5pi40",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 0,
+                  "detachFromLayout": true,
+                  "widgetId": "pdmdmukb3q",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "ggljh8u405",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
               "key": "hb7skfrzlo",
               "height": 648,
+              "labelTextSize": "0.875rem",
               "rightColumn": 0,
               "detachFromLayout": true,
               "widgetId": "ggljh8u405",
@@ -661,13 +741,19 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "borderRadius": "0px",
               "width": 626
             },
             {
-              "boxShadow": "NONE",
+              "boxShadow": "none",
               "widgetName": "Container1",
               "borderColor": "transparent",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3.svg",
               "topRow": 3,
@@ -680,28 +766,21 @@
               "leftColumn": 3,
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas5",
-                  "rightColumn": 337.5,
-                  "detachFromLayout": true,
                   "displayName": "Canvas",
-                  "widgetId": "9ry5zrz9hp",
-                  "containerStyle": "none",
                   "topRow": 0,
                   "bottomRow": 410,
                   "parentRowSpace": 1,
-                  "isVisible": true,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
-                  "version": 1,
                   "hideCard": true,
-                  "parentId": "huhcflchve",
                   "minHeight": 400,
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
                     {
+                      "boxShadow": "none",
                       "widgetName": "Image1",
                       "displayName": "Image",
                       "iconSVG": "/static/media/icon.52d8fb96.svg",
@@ -718,6 +797,7 @@
                       "dynamicBindingPathList": [],
                       "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                       "key": "ifw6ioi1x4",
+                      "labelTextSize": "0.875rem",
                       "image": "https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                       "rightColumn": 32,
                       "objectFit": "contain",
@@ -729,52 +809,40 @@
                       "isLoading": false,
                       "maxZoomLevel": 1,
                       "enableDownload": false,
+                      "borderRadius": "0px",
                       "enableRotation": false
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Form1",
-                      "backgroundColor": "white",
-                      "rightColumn": 59,
                       "isCanvas": true,
                       "displayName": "Form",
                       "iconSVG": "/static/media/icon.ea3e08d1.svg",
-                      "widgetId": "0qnvo7ro8k",
                       "topRow": 8,
                       "bottomRow": 33,
                       "parentRowSpace": 10,
-                      "isVisible": true,
                       "type": "FORM_WIDGET",
                       "hideCard": false,
-                      "parentId": "9ry5zrz9hp",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
                       "animateLoading": true,
                       "parentColumnSpace": 14.0625,
                       "leftColumn": 33,
                       "children": [
                         {
+                          "boxShadow": "none",
                           "widgetName": "Canvas2",
-                          "rightColumn": 337.5,
-                          "detachFromLayout": true,
                           "displayName": "Canvas",
-                          "widgetId": "mgq6049q22",
-                          "containerStyle": "none",
                           "topRow": 0,
                           "bottomRow": 390,
                           "parentRowSpace": 1,
-                          "isVisible": true,
                           "type": "CANVAS_WIDGET",
                           "canExtend": false,
-                          "version": 1,
                           "hideCard": true,
-                          "parentId": "0qnvo7ro8k",
                           "minHeight": 400,
-                          "renderMode": "CANVAS",
-                          "isLoading": false,
                           "parentColumnSpace": 1,
                           "leftColumn": 0,
                           "children": [
                             {
+                              "boxShadow": "none",
                               "widgetName": "passwordLogin",
                               "displayName": "Input",
                               "iconSVG": "/static/media/icon.9f505595.svg",
@@ -789,25 +857,38 @@
                               "dynamicTriggerPathList": [],
                               "resetOnSubmit": true,
                               "leftColumn": 2,
-                              "dynamicBindingPathList": [],
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "accentColor"
+                                }
+                              ],
                               "labelStyle": "",
                               "inputType": "PASSWORD",
                               "isDisabled": false,
                               "key": "manji66kn9",
+                              "labelTextSize": "0.875rem",
                               "isRequired": true,
                               "rightColumn": 63,
                               "widgetId": "i6gwcn670j",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                               "isVisible": true,
                               "label": "Password  :",
                               "version": 2,
                               "parentId": "mgq6049q22",
                               "renderMode": "CANVAS",
                               "isLoading": false,
+                              "borderRadius": "0px",
                               "iconAlign": "left",
                               "defaultText": ""
                             },
                             {
+                              "boxShadow": "none",
                               "widgetName": "Text2",
+                              "dynamicPropertyPathList": [
+                                {
+                                  "key": "fontSize"
+                                }
+                              ],
                               "displayName": "Text",
                               "iconSVG": "/static/media/icon.97c59b52.svg",
                               "topRow": 1,
@@ -816,27 +897,30 @@
                               "hideCard": false,
                               "animateLoading": true,
                               "dynamicTriggerPathList": [],
+                              "overflow": "NONE",
+                              "fontFamily": "System Default",
                               "leftColumn": 2,
                               "dynamicBindingPathList": [],
-                              "shouldTruncate": false,
                               "truncateButtonColor": "#FFC13D",
                               "text": "Login Page",
                               "key": "yj5npox4lt",
+                              "labelTextSize": "0.875rem",
                               "rightColumn": 36,
                               "textAlign": "LEFT",
                               "widgetId": "8v3muurprd",
                               "isVisible": true,
                               "fontStyle": "BOLD",
                               "textColor": "#231F20",
-                              "shouldScroll": false,
                               "version": 1,
                               "parentId": "mgq6049q22",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "fontSize": "HEADING1"
+                              "borderRadius": "0px",
+                              "fontSize": "1.5rem"
                             },
                             {
                               "resetFormOnClick": true,
+                              "boxShadow": "none",
                               "widgetName": "signupButton",
                               "onClick": "{{showModal('signupModal')}}",
                               "buttonColor": "#03B365",
@@ -856,6 +940,7 @@
                               "dynamicBindingPathList": [],
                               "text": "Signup",
                               "key": "4ijbnayect",
+                              "labelTextSize": "0.875rem",
                               "rightColumn": 62,
                               "isDefaultClickDisabled": true,
                               "widgetId": "b4vudfa5in",
@@ -866,10 +951,12 @@
                               "renderMode": "CANVAS",
                               "isLoading": false,
                               "disabledWhenInvalid": false,
+                              "borderRadius": "0px",
                               "buttonVariant": "PRIMARY"
                             },
                             {
                               "resetFormOnClick": true,
+                              "boxShadow": "none",
                               "widgetName": "LoginButton",
                               "onClick": "{{loginQuery.run(() => JSObject1.loginAdminNavigation(), () => showModal('failLoginModal'))}}",
                               "buttonColor": "#03B365",
@@ -891,6 +978,7 @@
                               "dynamicBindingPathList": [],
                               "text": "Login",
                               "key": "4ijbnayect",
+                              "labelTextSize": "0.875rem",
                               "rightColumn": 44,
                               "isDefaultClickDisabled": true,
                               "widgetId": "cy14vg0ayj",
@@ -901,9 +989,11 @@
                               "renderMode": "CANVAS",
                               "isLoading": false,
                               "disabledWhenInvalid": false,
+                              "borderRadius": "0px",
                               "buttonVariant": "SECONDARY"
                             },
                             {
+                              "boxShadow": "none",
                               "widgetName": "usernameLogin",
                               "displayName": "Input",
                               "iconSVG": "/static/media/icon.9f505595.svg",
@@ -918,24 +1008,32 @@
                               "dynamicTriggerPathList": [],
                               "resetOnSubmit": true,
                               "leftColumn": 2,
-                              "dynamicBindingPathList": [],
+                              "dynamicBindingPathList": [
+                                {
+                                  "key": "accentColor"
+                                }
+                              ],
                               "labelStyle": "",
-                              "inputType": "TEXT",
+                              "inputType": "EMAIL",
                               "isDisabled": false,
                               "key": "manji66kn9",
+                              "labelTextSize": "0.875rem",
                               "isRequired": false,
                               "rightColumn": 63,
                               "widgetId": "feuztrq26z",
+                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                               "isVisible": true,
-                              "label": "Username:",
+                              "label": "Email:",
                               "version": 2,
                               "parentId": "mgq6049q22",
                               "renderMode": "CANVAS",
                               "isLoading": false,
+                              "borderRadius": "0px",
                               "iconAlign": "left",
                               "defaultText": ""
                             },
                             {
+                              "boxShadow": "none",
                               "widgetName": "adminCheckbox",
                               "displayName": "Checkbox",
                               "iconSVG": "/static/media/icon.aaab032b.svg",
@@ -952,29 +1050,64 @@
                               "dynamicBindingPathList": [],
                               "isDisabled": false,
                               "key": "5z5zu3wwsc",
+                              "labelTextSize": "0.875rem",
                               "isRequired": false,
                               "rightColumn": 23,
                               "widgetId": "mkw5srr881",
+                              "accentColor": "#03B365",
                               "isVisible": true,
                               "label": "admin?",
                               "version": 1,
                               "parentId": "mgq6049q22",
                               "renderMode": "CANVAS",
                               "isLoading": false,
+                              "borderRadius": "0px",
                               "defaultCheckedState": true
                             }
                           ],
-                          "key": "n1mim5pi40"
+                          "key": "n1mim5pi40",
+                          "labelTextSize": "0.875rem",
+                          "rightColumn": 337.5,
+                          "detachFromLayout": true,
+                          "widgetId": "mgq6049q22",
+                          "containerStyle": "none",
+                          "isVisible": true,
+                          "version": 1,
+                          "parentId": "0qnvo7ro8k",
+                          "renderMode": "CANVAS",
+                          "isLoading": false,
+                          "borderRadius": "0px"
                         }
                       ],
-                      "key": "fxpoix78vf"
+                      "key": "fxpoix78vf",
+                      "labelTextSize": "0.875rem",
+                      "backgroundColor": "white",
+                      "rightColumn": 59,
+                      "widgetId": "0qnvo7ro8k",
+                      "isVisible": true,
+                      "parentId": "9ry5zrz9hp",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "0px"
                     }
                   ],
-                  "key": "fevmy3yzkm"
+                  "key": "fevmy3yzkm",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 337.5,
+                  "detachFromLayout": true,
+                  "widgetId": "9ry5zrz9hp",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "huhcflchve",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
               "borderWidth": "0",
               "key": "84z8pslz4y",
+              "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 60,
               "widgetId": "huhcflchve",
@@ -984,7 +1117,7 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0"
+              "borderRadius": "0px"
             }
           ]
         },
@@ -1020,8 +1153,7 @@
           "signupButton",
           "signupModal",
           "skillSignup",
-          "usernameLogin",
-          "usernameSignup"
+          "usernameLogin"
         ],
         "validOnPageLoadActions": true,
         "id": "Login",

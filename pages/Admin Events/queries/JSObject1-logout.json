@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Recommender",
-    "collectionId": "Recommender_JSObject1",
+    "pageId": "Admin Events",
+    "collectionId": "Admin Events_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -40,7 +40,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Recommender_logout",
+  "id": "Admin Events_JSObject1.logout",
   "deleted": false,
-  "gitSyncId": "6210f8f06b4b1e154a3f1638_6235cebf4d9aea1b062acd90"
+  "gitSyncId": "6210f8f06b4b1e154a3f1638_6235ce824d9aea1b062acd86"
 }

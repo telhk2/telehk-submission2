@@ -1,11 +1,50 @@
 {
-  "fileFormatVersion": 1,
   "clientSchemaVersion": 1,
-  "serverSchemaVersion": 2,
+  "serverSchemaVersion": 4,
+  "pageOrder": [
+    "Admin Dashboard",
+    "Admin Events",
+    "Event Management",
+    "Volunteers Hours Report",
+    "Recommender",
+    "Login",
+    "Volunteer Registration for Eve",
+    "Volunteer Event Listing"
+  ],
+  "publishedPageOrder": [
+    "Admin Dashboard",
+    "Admin Events",
+    "Event Management",
+    "Volunteers Hours Report",
+    "Recommender",
+    "Login",
+    "Volunteer Registration for Eve",
+    "Volunteer Event Listing"
+  ],
   "publishedDefaultPageName": "Login",
   "unpublishedDefaultPageName": "Login",
   "invisibleActionFields": {
-    "Event Management_logout": {
+    "Admin Dashboard_JSObject1.logout": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Admin Dashboard_Query1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Admin Events_JSObject1.logout": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Event Management_JSObject1.logout": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Login_JSObject1.loginAdminNavigation": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Login_JSObject1.signupSubmission": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
@@ -13,23 +52,11 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Login_loginAdminNavigation": {
+    "Login_loginQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Volunteer Event Listing_logout": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Login_signupSubmission": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Volunteer Registration for Eve_logout": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Admin Events_logout": {
+    "Login_signupCheckQuery": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
@@ -41,59 +68,24 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Volunteers Hours Report_logout": {
+    "Recommender_JSObject1.logout": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Admin Dashboard_Query1": {
+    "Volunteer Event Listing_JSObject1.logout": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Login_loginQuery": {
+    "Volunteer Registration for Eve_JSObject1.logout": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Admin Dashboard_logout": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Login_signupCheckQuery": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Recommender_logout": {
+    "Volunteers Hours Report_JSObject1.logout": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     }
   },
-  "editModeTheme": {
-    "name": "Classic",
-    "isSystemTheme": true,
-    "deleted": false,
-    "policies": [
-      {
-        "permission": "read:themes",
-        "users": [
-          "anonymousUser"
-        ],
-        "groups": []
-      }
-    ]
-  },
-  "publishedTheme": {
-    "name": "Classic",
-    "isSystemTheme": true,
-    "deleted": false,
-    "policies": [
-      {
-        "permission": "read:themes",
-        "users": [
-          "anonymousUser"
-        ],
-        "groups": []
-      }
-    ]
-  },
   "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {}
+  "unpublishedLayoutmongoEscapedWidgets": {},
+  "fileFormatVersion": 2
 }

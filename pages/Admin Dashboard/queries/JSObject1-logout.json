@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Volunteer Registration for Eve",
-    "collectionId": "Volunteer Registration for Eve_JSObject1",
+    "pageId": "Admin Dashboard",
+    "collectionId": "Admin Dashboard_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -40,7 +40,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Volunteer Registration for Eve_logout",
+  "id": "Admin Dashboard_JSObject1.logout",
   "deleted": false,
-  "gitSyncId": "6210f8f06b4b1e154a3f1638_6235ceec4d9aea1b062acd98"
+  "gitSyncId": "6210f8f06b4b1e154a3f1638_6235cd954d9aea1b062acd7c"
 }

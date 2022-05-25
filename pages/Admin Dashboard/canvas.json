@@ -19,20 +19,23 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 53,
+          "version": 58,
           "minHeight": 990,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
             {
-              "boxShadow": "NONE",
+              "boxShadow": "none",
               "widgetName": "Container1",
               "borderColor": "transparent",
               "isCanvas": true,
               "dynamicPropertyPathList": [
                 {
                   "key": "isVisible"
+                },
+                {
+                  "key": "borderRadius"
                 }
               ],
               "displayName": "Container",
@@ -53,29 +56,22 @@
               ],
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas1",
-                  "rightColumn": 637.5,
-                  "detachFromLayout": true,
                   "displayName": "Canvas",
-                  "widgetId": "0v7425wuxo",
-                  "containerStyle": "none",
                   "topRow": 0,
                   "bottomRow": 1330,
                   "parentRowSpace": 1,
-                  "isVisible": true,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
-                  "version": 1,
                   "hideCard": true,
-                  "parentId": "ugrin5e6bg",
                   "minHeight": 400,
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
                     {
                       "isCompact": false,
+                      "boxShadow": "none",
                       "widgetName": "MenuButton1",
                       "dynamicPropertyPathList": [],
                       "displayName": "Menu Button",
@@ -108,6 +104,7 @@
                       "dynamicBindingPathList": [],
                       "isDisabled": false,
                       "key": "35tphojhiy",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 7,
                       "iconName": "align-justify",
                       "menuVariant": "PRIMARY",
@@ -165,11 +162,13 @@
                       "parentId": "0v7425wuxo",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "menuColor": "#03B365",
                       "iconAlign": "left",
                       "placement": "CENTER"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Iframe2",
                       "displayName": "Iframe",
                       "iconSVG": "/static/media/icon.34169b6a.svg",
@@ -187,15 +186,18 @@
                       "dynamicBindingPathList": [],
                       "borderWidth": 1,
                       "key": "jx2m8bqx27",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 64,
                       "widgetId": "t5j08qjus8",
                       "isVisible": true,
                       "version": 1,
                       "parentId": "0v7425wuxo",
                       "renderMode": "CANVAS",
-                      "isLoading": false
+                      "isLoading": false,
+                      "borderRadius": "0px"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Button2",
                       "onClick": "{{JSObject1.logout()}}",
                       "buttonColor": "#03B365",
@@ -219,6 +221,7 @@
                       "text": "Logout",
                       "isDisabled": false,
                       "key": "gvuuo8aclk",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 9,
                       "isDefaultClickDisabled": true,
                       "widgetId": "c7fvblvm5o",
@@ -228,15 +231,28 @@
                       "parentId": "0v7425wuxo",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     }
                   ],
-                  "key": "887okia3o5"
+                  "key": "887okia3o5",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 637.5,
+                  "detachFromLayout": true,
+                  "widgetId": "0v7425wuxo",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "ugrin5e6bg",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
               "borderWidth": "0",
               "key": "0gkwu8ritu",
+              "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 60,
               "widgetId": "ugrin5e6bg",
@@ -246,16 +262,19 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0"
+              "borderRadius": "0px"
             },
             {
-              "boxShadow": "NONE",
+              "boxShadow": "none",
               "widgetName": "Container2",
               "borderColor": "transparent",
               "isCanvas": true,
               "dynamicPropertyPathList": [
                 {
                   "key": "isVisible"
+                },
+                {
+                  "key": "borderRadius"
                 }
               ],
               "displayName": "Container",
@@ -276,28 +295,21 @@
               ],
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas2",
-                  "rightColumn": 589.5,
-                  "detachFromLayout": true,
                   "displayName": "Canvas",
-                  "widgetId": "qdbp0hxmux",
-                  "containerStyle": "none",
                   "topRow": 0,
                   "bottomRow": 390,
                   "parentRowSpace": 1,
-                  "isVisible": true,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
-                  "version": 1,
                   "hideCard": true,
-                  "parentId": "d9sycn4wzi",
                   "minHeight": 400,
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
                     {
+                      "boxShadow": "none",
                       "widgetName": "Button1",
                       "onClick": "{{navigateTo('Login', {})}}",
                       "buttonColor": "#03B365",
@@ -320,6 +332,7 @@
                       "text": "Back to Login Page",
                       "isDisabled": false,
                       "key": "cgh6d9hizz",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 40,
                       "isDefaultClickDisabled": true,
                       "widgetId": "ikvodcz1ai",
@@ -329,10 +342,12 @@
                       "parentId": "qdbp0hxmux",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text1",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -344,31 +359,45 @@
                       "animateLoading": true,
                       "parentColumnSpace": 22.3310546875,
                       "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 24,
                       "dynamicBindingPathList": [],
-                      "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
                       "text": "Unauthorized, please go back to login page",
                       "key": "4vasgusjnr",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 40,
                       "textAlign": "LEFT",
                       "widgetId": "ritd46wjha",
                       "isVisible": true,
                       "fontStyle": "BOLD",
                       "textColor": "#231F20",
-                      "shouldScroll": false,
                       "version": 1,
                       "parentId": "qdbp0hxmux",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     }
                   ],
-                  "key": "f9cj79x55t"
+                  "key": "f9cj79x55t",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 589.5,
+                  "detachFromLayout": true,
+                  "widgetId": "qdbp0hxmux",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "d9sycn4wzi",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
               "borderWidth": "0",
               "key": "1g6v5fvwbl",
+              "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 60,
               "widgetId": "d9sycn4wzi",
@@ -378,7 +407,7 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0"
+              "borderRadius": "0px"
             }
           ]
         },

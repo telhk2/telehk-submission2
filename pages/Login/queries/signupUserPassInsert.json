@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO public.\"tbl_login\" (\"email\", \"password\")\n  VALUES ('{{emailSignup.text}}', '{{passwordSignup.text}}');",
+      "body": "INSERT INTO public.\"tbl_login\" (\"username\", \"password\")\n  VALUES ('{{emailSignup.text}}', '{{passwordSignup.text}}');",
       "pluginSpecifiedTemplates": [
         {
           "value": false

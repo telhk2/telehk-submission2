@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n\t\t\tawait signupCheckQuery.run().then(x => {\n\t\t\t\t\t\t\tif (x?.length >= 1) {\n\t\t\tshowAlert('user already exists','warning');\n\t\t\treturn;\n\t} else {\n\t\tif (usernameSignup.text && firstnameSignup.text && lastNameSignup.text && emailSignup.text && genderSignup.selectedOptionLabel && ageSingup.text && skillSignup.selectedOptionValues && interestSignup.selectedOptionValues) {\n\t\t\tsignupUserPassInsert.run();\n\t\t\tformSubmitInsert.run();\n\t\t\tcloseModal('signupModal');\n\t\t} else {\n\t\t\tshowAlert('please fill up the remaining fields', 'warning');\n\t\t}\n\t}\n\t\t\t});\n\n\t}",
+      "body": "async () => {\n\t\t\tawait signupCheckQuery.run().then(x => {\n\t\t\t\t\t\t\tif (x?.length >= 1) {\n\t\t\tshowAlert('user already exists','warning');\n\t\t\treturn;\n\t} else {\n\t\tif (emailSignup.text && firstnameSignup.text && lastNameSignup.text && emailSignup.text && genderSignup.selectedOptionLabel && ageSingup.text && skillSignup.selectedOptionValues && interestSignup.selectedOptionValues) {\n\t\t\tsignupUserPassInsert.run();\n\t\t\tformSubmitInsert.run();\n\t\t\tcloseModal('signupModal');\n\t\t} else {\n\t\t\tshowAlert('please fill up the remaining fields', 'warning');\n\t\t}\n\t}\n\t\t\t});\n\n\t}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,7 +33,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n\t\t\tawait signupCheckQuery.run().then(x => {\n\t\t\t\t\t\t\tif (x?.length >= 1) {\n\t\t\tshowAlert('user already exists','warning');\n\t\t\treturn;\n\t} else {\n\t\tif (usernameSignup.text && firstnameSignup.text && lastNameSignup.text && emailSignup.text && genderSignup.selectedOptionLabel && ageSingup.text && skillSignup.selectedOptionValues && interestSignup.selectedOptionValues) {\n\t\t\tsignupUserPassInsert.run();\n\t\t\tformSubmitInsert.run();\n\t\t\tcloseModal('signupModal');\n\t\t} else {\n\t\t\tshowAlert('please fill up the remaining fields', 'warning');\n\t\t}\n\t}\n\t\t\t});\n\n\t}"
+      "async () => {\n\t\t\tawait signupCheckQuery.run().then(x => {\n\t\t\t\t\t\t\tif (x?.length >= 1) {\n\t\t\tshowAlert('user already exists','warning');\n\t\t\treturn;\n\t} else {\n\t\tif (emailSignup.text && firstnameSignup.text && lastNameSignup.text && emailSignup.text && genderSignup.selectedOptionLabel && ageSingup.text && skillSignup.selectedOptionValues && interestSignup.selectedOptionValues) {\n\t\t\tsignupUserPassInsert.run();\n\t\t\tformSubmitInsert.run();\n\t\t\tcloseModal('signupModal');\n\t\t} else {\n\t\t\tshowAlert('please fill up the remaining fields', 'warning');\n\t\t}\n\t}\n\t\t\t});\n\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
